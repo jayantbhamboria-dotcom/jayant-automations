@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products | JAYANT AUTOMATIONS INDIA PVT. LTD.</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#111827;
+    background:#f5f7fa;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#070021;
+    border-bottom:1px solid #e5e7eb;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-weight:900;
+    font-size:22px;
+    letter-spacing:2px;
+}
+.logoimg{
+    height: auto;
+    width: 261px;
+}
+
+.logo small{
+    display:block;
+    color:#2563eb;
+    font-size:9px;
+    letter-spacing:4px;
+    margin-top:2px;
+}
+
+nav a{
+    margin-left:24px;
+    text-decoration:none;
+    color:#edeef0;
+    font-size:14px;
+    font-weight:700;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+.btn{
+    background:#2563eb;
+    color:#fff !important;
+    padding:11px 18px;
+    border-radius:5px;
+}
+
+/* PAGE HEADER */
+
+.page-header{
+    background:linear-gradient(120deg,#08111f,#172554);
+    color:#ffffff;
+    padding:90px 7%;
+    text-align:center;
+}
+
+.page-header p{
+    color:#60a5fa;
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:3px;
+    margin-bottom:12px;
+}
+
+.page-header h1{
+    font-size:52px;
+    margin-bottom:15px;
+}
+
+.page-header span{
+    color:#cbd5e1;
+    font-size:17px;
+}
+
+/* PRODUCTS */
+
+.products{
+    padding:80px 7%;
+    background:#ffffff;
+}
+
+.products-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.product-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    transition:0.25s;
+    overflow:hidden;
+}
+
+.product-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 18px 35px #00000015;
+}
+
+.product-image{
+    height:220px;
+    background:#e5e7eb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#64748b;
+    font-weight:700;
+}
+.product-image img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
+}
+
+.product-content{
+    padding:25px;
+}
+
+.product-content h3{
+    font-size:21px;
+    margin-bottom:10px;
+}
+
+.product-content p{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.product-btn{
+    display:inline-block;
+    margin-top:18px;
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:800;
+}
+
+/* FOOTER */
+
+footer{
+    background:#020617;
+    color:#ffffff;
+    text-align:center;
+    padding:40px 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+footer span{
+    display:block;
+    color:#60a5fa;
+    font-size:9px;
+    letter-spacing:4px;
+}
+
+footer p{
+    color:#64748b;
+    font-size:13px;
+    margin-top:10px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    .product-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+.footerimage{height: 95px;
+width: 200px;
+display: flex;
+justify-content: center;}
+@media(max-width:600px){
+
+    nav a{
+        display:none;
+    }
+
+    .page-header h1{
+        font-size:40px;
+    }
+
+    .product-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+    <img src="logo.png.png" alt="JAYANT AUTOMATIONS" class="logoimg">
+</div>
+
+<div>
+<a href="MY WEBSITE.html">Home</a>
+<a href="products.html">Products</a>
+<a href="MY WEBSITE.html#customers">Customers</a>
+<a href="MY WEBSITE.html#projects">Projects</a>
+<a href="MY WEBSITE.html#about">About</a>
+<a class="btn" href="MY WEBSITE.html#contact">Inquiry</a>
+</div>
+
+</nav>
+
+
+<!-- PAGE HEADER -->
+
+<section class="page-header">
+
+<p>OUR PRODUCTS</p>
+
+<h1>Products & Solutions</h1>
+
+<span>
+Advanced automation and industrial solutions for modern manufacturing.
+</span>
+
+</section>
+
+
+<!-- PRODUCTS -->
+
+<section class="products">
+
+<div class="products-container">
+
+<div class="product-grid">
+
+
+<!-- PRODUCT 1 -->
+
+<div class="product-card">
+
+
+<div class="product-image">
+    <img src="images/leak-machine.jpg" alt="Air Leak Testing Machine">
+</div>
+
+<h3>Air Leak Testing Machine</h3>
+
+<p>
+High-precision automatic air leak testing solution for industrial components.
+</p>
+
+<a href="#" class="product-btn">
+View Details →
+</a>
+
+</div>
+
+
+
+
+<!-- PRODUCT 2 -->
+
+<div class="product-card">
+
+<div class="product-image">
+<img src="images/vision.jpg" alt="Air Leak Testing Machine">
+</div>
+
+<div class="product-content">
+
+<h3>Vision Inspection Machine</h3>
+
+<p>
+Automated inspection solutions designed for accurate and reliable quality control.
+</p>
+
+<a href="#" class="product-btn">
+View Details →
+</a>
+
+</div>
+
+</div>
+
+
+<!-- PRODUCT 3 -->
+
+<div class="product-card">
+
+<div class="product-image">
+<img src="images/spm.jpg" alt="">
+</div>
+
+<div class="product-content">
+
+<h3>Special Purpose Machine</h3>
+
+<p>
+Customized automation systems for efficient and consistent manufacturing processes.
+</p>
+
+<a href="#" class="product-btn">
+View Details →
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footerimage">
+    <img src="logo.png.png" alt="JAYANT AUTOMATIONS" style="height: 100px; width: 450px; ">
+</div>
+
+<p>
+© 2026 JAYANT AUTOMATIONS INDIA PVT. LTD. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
